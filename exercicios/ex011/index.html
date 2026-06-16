@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tenta abrir este site em varios dispositivos diferentes, ou aumente e diminua o tamanho do browser. </p>
+    <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+         <source media="(max-width: 1050px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+            <img src="imagens/foto-g.jpg" alt="Imagem flexível">
+        </picture>
+        <h1>Reproduzindo audio</h1>
+        <p>vamos aprender a reproduzir audio em html5</p>
+       <audio preload="auto" autoplay controls>
+           <source src="audio/somexemplo.ogg" type="audio/ogg">
+      <p>infelizmente o browser nao consegue carregar o audio <a href="audio/somexemplo.mp3">Clica aqui para baixar o arquivo mp3</a></p>
+       </audio>
+</body>
+</html>
+
+<picture>
+        
+       
